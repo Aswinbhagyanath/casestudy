@@ -48,7 +48,7 @@ function ajax(){
            if(count.length==95){
             
     
-               resolve(setTimeout(function(){ alert("Congrats. 5 Tasks have been Successfully Completed"); }, 250));
+               resolve(setTimeout(function(){ alert("Congrats. 5 Tasks have been Successfully Completed"); }, 80));
                
            } 
         });
@@ -61,6 +61,6 @@ function ajax(){
             if(count.length>94){
                 setTimeout(function(){ alert("You have reached your limit");
                 window.location.href='./final.html';
-             }, 700)                
+             }, 300)                
         }
 }
