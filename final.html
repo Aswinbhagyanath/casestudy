@@ -17,7 +17,7 @@
      
         <ul class="nav justify-content-center ms-auto">
             <li class="nav-item">
-              <a class="nav-link"  aria-current="page" href="#" onclick="ajax();">ToDo List</a>
+              <a class="nav-link"  aria-current="page" href="#" onclick="ajaxfinal();">ToDo List</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index.html">LogOut</a>
@@ -29,12 +29,29 @@
     <!--/navbar-->
     <br>
     <br>
+    
     <!--list-->
-    <div class="listitem">
-      <h3 id="label1">You completed 5 tasks !Click again on ToDo list to continue finishing tasks</h3>
+    <div class="container-fluid">
+        <h2 id="heading">You completed 5 tasks !Click again on ToDo list to continue finishing tasks</h2>
+        <div class="row">        
+            <div   class="table col-lg-5 col-md-10 col-sm-10">
+                <h2 id="tablehead"></h2>
+                <div id="label"> 
+                    
+                
+                </div>           
+            </div>
+            <div  class="table col-lg-5 col-md-10 col-sm-10">
+                <h2 id="tablehead1"></h2>
+                <div id="label1">
+                    
+                
+                </div>           
+            </div>        
+    </div>
     </div>
     <!--/list-->
-    <script src="js/ajax.js"></script>
+    <script src="js/ajaxfinal.js"></script>
    
 </body>
 </html>
