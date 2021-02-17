@@ -1,6 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    text-align: center;
 }
 /* LOGIN PAGE BODY */
 
@@ -10,12 +11,19 @@
     background-size: cover;
     padding: 15% 0 0 40%;
 }
+input{
+    text-align: left;
+}
 #usrnameLabel{
     color: #ffffff;
 }
 #pwdLabel{
     color: #ffffff;    
 }
+
+/* LOGIN PAGE ENDS */
+
+/* HOME PAGE */
 
 /* NAVBAR */
 
@@ -35,12 +43,30 @@
 
 /* NAVBAR ENDS */
 
+/* LISTS */
 
-/* HOME PAGE */
 .listitem{
-    padding: 15% 0 0 20%;
+    border: 1px solid black;
+    margin: 3.5%;
+    padding: 0;
+    background-color: rgb(243, 235, 235);
 }
 
-#label1{
-    padding: 0 10% 0 0;
+#label{
+    margin: 0.5rem;  
+    border: 0;
+    /* border-top: 1px solid black; */
+    text-align: left;
+   
 }
+
+#cell{
+    margin: 0;
+   padding: 1.5%;
+    border-top: 1px solid black;
+    text-align: left;
+}
+
+/* LISTS ENDS */
+
+/* HOMEPAGE ENDS */
